@@ -15,7 +15,7 @@ public class GetAllMethod {
 				given()
 				.contentType(ContentType.JSON)
 				.when()
-				.get("http://localhost:3000/ApiBatchStudents/2548");
+				.get("http://localhost:3000/ApiBatchStudents");
 				
 				System.out.println("Status Code is" +res.statusCode());
 				System.out.println("Response data is ");
